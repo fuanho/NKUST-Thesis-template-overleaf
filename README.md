@@ -1,20 +1,16 @@
----
-title: '國立高雄科技大學的 Overleaf Latex 模板'
-disqus: hackmd
----
-
 國立高雄科技大學的 Overleaf Latex 模板
 ===
+
+
+[![hackmd-github-sync-badge](https://hackmd.io/YvbffQteQ3WJQWuqZyrGYw/badge)](https://hackmd.io/YvbffQteQ3WJQWuqZyrGYw)
 [![fuanho - \NKUST-Thesis-template-overleaf](https://img.shields.io/static/v1?label=&message=NKUST-Thesis-template-overleaf&color=gray&logo=github)](https://github.com/fuanho/NKUST-Thesis-template-overleaf)
 [![License](https://img.shields.io/badge/License-CC_BY--SA_3.0_TW-blue)](http://creativecommons.org/licenses/by-sa/3.0/tw/ "創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款")
 
 > 本專案是基於 https://github.com/yuhao-kuo/NKUST-thesis-template 專案再製，並根據國立高雄科技大學學位論文撰寫體例參考111年3月版型修改。
 
-:::success
-:bulb: Links to [Overleaf Tempelate](https://www.overleaf.com/latex/templates/nkust-thesis-overleaf/qwdpqjqnztsp)
-:::
 
-[TOC]
+### :bulb: **Links to [Overleaf Tempelate](https://www.overleaf.com/latex/templates/nkust-thesis-overleaf/qwdpqjqnztsp)**
+
 
 如何使用
 ---
@@ -36,7 +32,7 @@ disqus: hackmd
 架構說明
 ---
 
-關於架構說明，在模板內容第四章如何開始撰寫自己的論文中有詳細的介紹。
+關於架構說明，在模板內容第四章「如何開始撰寫自己的論文」中有詳細的介紹。
 
 授權與免責聲明
 ---
