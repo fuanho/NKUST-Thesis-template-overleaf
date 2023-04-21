@@ -1,0 +1,46 @@
+
+\chapter{結論} \label{conclusion_and_future}
+
+\section{命令總結}
+
+\subsection*{產生論文}
+
+經過開發者討論後，決議將論文與封面產生皆由 all 指令產生。
+
+\begin{lstlisting}[language=bash]
+    make all
+\end{lstlisting}
+
+\subsection*{清除暫存}
+
+暫存檔案檔案是由 xelatex 編譯時所產生，使用此指令清除暫存並不會將 PDF 檔案清除。
+
+\begin{lstlisting}[language=bash]
+    make clean
+\end{lstlisting}
+
+\subsection*{完整清除}
+
+完整清除檔案會將所有由 xelatex 編譯產生的檔案完整清除，包含論文與封面的 PDF 檔案。
+
+\begin{lstlisting}[language=bash]
+    make distclean
+\end{lstlisting}
+
+\subsection*{PDF防拷加工}
+
+透過 ghostscript\cite{ghostscript} 為 PDF 提供防拷功能，其指令如下。
+
+\begin{lstlisting}[language=bash]
+    make pdfprocessing
+\end{lstlisting}
+
+此功能依賴 build/main.pdf 作為加工來源，因此當 build/main.pdf 不存在導致無法執行此命令時，請先執行 make all 來產生檔案。
+
+\section{結語}
+
+未來，我們也不知道能持續維護多久，只要有人使用，我們就會盡力維護下去。
+目前僅支援 Linux，未來將會盡量朝向支援 Windows，讓更多人能使用此專案。
+
+如果這個專案給您提供了幫助，請給我們 GitHub Repository\cite{github-repo} 一個 Star 讓我們知道。
+最後祝福您順利畢業！

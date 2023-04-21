@@ -1,0 +1,20 @@
+% ----------------------------
+%   章節
+% ----------------------------
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{zhnumber}
+\usepackage{CJKnumb}
+
+\titlecontents{chapter}[0em]{}
+{\hspace{0em}\makebox[4.1em][l]
+	{\zhnumber{\thecontentslabel}、}}{}
+{\titlerule*[0.7pc]{.}\contentspage}
+
+\titleformat{\chapter}{\centering\large\bfseries}{Chapter\,{\CJKnumber{\thechapter}}}{1em}{}
+\titleformat{\chapter}{\centering\large\bfseries}{\CJKnumber{\thechapter}\,、}{1em}{}    %設定章節樣式
+
+
+\titleformat*{\section}{\normalsize\bfseries} %設定 section樣式
+\titleformat*{\subsection}{\normalsize\bfseries} %設定 subsection樣式

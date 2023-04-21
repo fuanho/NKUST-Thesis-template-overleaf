@@ -1,0 +1,58 @@
+%----------------------------------------------------------------------------------------
+%	BOOK TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+
+\begin{titlepage}
+% \vspace*{1mm}
+\linespread{1} \edukai
+\begin{center}
+
+
+\includegraphics[scale=0.3]{\thesistitlelogo}\\
+\vspace{10mm}
+{\huge\bfseries{\schooltwname}\\
+\vspace{4.5mm}
+\huge\bfseries{\depttwname{\degreetw 班}}\\
+\vspace{10mm}
+\LARGE\bfseries{\degreetw 論文}}\\
+\vspace{10mm}
+
+
+\vspace{10mm}
+
+{\Large  \titletw}
+
+\vspace{5mm}
+\vspace{1\baselineskip}
+{\Large  \titleen}
+\vspace{10mm}\\
+
+\vspace{0.5\baselineskip}
+\ifthenelse{\boolean{thesisdraft}}{
+    \LARGE  {（初稿）}
+}{
+    \LARGE  {}
+}
+\vspace{6mm}
+
+\begin{tabular}{rl}
+    \large\makebox[5em][s]{研\hspace{\fill}究\hspace{\fill}生}： & 
+    \def\arraystretch{1}
+    \begin{tabular}[t]{l}
+        \large\authortwname
+    \end{tabular}\\
+    \large\makebox[5em][s]{指\hspace{\fill}導\hspace{\fill}教\hspace{\fill}授}：& 
+    \def\arraystretch{0.5}
+    \begin{tabular}[t]{l}
+        \large\supervisortwname\\ 
+        \ifdefempty{\cosupervisortwname}{}{\large\cosupervisortwname }
+    \end{tabular}\\
+\end{tabular}
+
+\vspace{10mm}
+\fontsize{14pt}{0pt}{\dateROC }
+\vspace{15mm}
+\end{center}
+
+\end{titlepage} 
